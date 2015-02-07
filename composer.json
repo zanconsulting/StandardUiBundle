@@ -1,0 +1,19 @@
+{
+    "name": "zanconsulting/standard-ui-bundle",
+    "type": "symfony-bundle",
+    "description": "Components for quickly integrating a standard UI",
+    "homepage": "https://github.com/zanconsulting/StandardUiBundle",
+    "license": "MIT",
+
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.2"
+    },
+
+    "autoload": {
+        "psr-4" : {
+            "Zan\\StandardUiBundle\\" : ""
+        }
+    }
+}
+
